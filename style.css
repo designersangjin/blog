@@ -123,4 +123,36 @@ table {
     width: 100%;
     max-width: none;
   }
+ .top ul {
+        font-size: 30px;
+    }
+    
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+  .top ul {
+        font-size: 34px;
+    }
+    
+}
+
+    
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .top ul {
+        font-size: 38px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    .top ul {
+        font-size: 44px;
+    }
+    
+}
+    
