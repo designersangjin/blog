@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -50,4 +50,77 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* index */
+
+.top ul {
+    font-size: 44px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #444444;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: 1.2;
+}
+
+.menu {
+    margin-top: 84px;
+}
+
+.menu2 {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    
+}
+
+.menu2 a{
+    color: #02C284;
+    margin-right: 20px;
+}
+
+.menu ul {
+    padding: 0;
+}
+.menu a{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: #3D4B5A;
+    font-weight: 300;
+    padding: 0;
+    margin-right: 20px;
+    -webkit-transition: 0.5s ease;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.box_bg {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
 }
