@@ -60,18 +60,25 @@ table {
     font-weight: 700;
     color: #444444;
     margin-top: 50px;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
     line-height: 1.2;
 }
 
 .menu {
     margin-top: 84px;
+    margin-right: 0px;
+  
 }
 
 .menu2 {
     margin-bottom: 70px;
     margin-top: 50px;
+    
+}
+
+.menu p {
+    text-align: right;
     
 }
 
@@ -81,6 +88,11 @@ table {
 }
 
 .menu ul {
+    padding: 0;
+}
+
+
+.menu li {
     padding: 0;
 }
 .menu a{
@@ -100,6 +112,7 @@ table {
     
 }
 
+
 .box_bg {
     width: 100%;
     bottom: 0;
@@ -107,9 +120,31 @@ table {
 }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  
+}
 
+
+.container p {
+    margin-right: 0px;
+    padding-right: 0;
+    padding-left: 0;  
+
+}
+
+
+.container text {
+    margin-left: 0px;
+  
+}
+
+.box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    }
+    
   > .col,
   > [class*="col-"] {
     padding-right: 0;
@@ -117,21 +152,28 @@ table {
   }
 }
 
+@media (min-width: 576px) {
+  .top ul {
+        font-size: 30px;
+    }     
+
+    
+}
 
 @media (max-width: 768px) {
   .container {
     width: 100%;
     max-width: none;
   }
- .top ul {
+    .top ul {
         font-size: 30px;
-    }
+    } 
     
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
-  .top ul {
+    .top ul {
         font-size: 34px;
     }
     
@@ -149,7 +191,7 @@ table {
 
 
 @media screen and (min-width: 1200px) {
-    
+   
     .top ul {
         font-size: 44px;
     }
